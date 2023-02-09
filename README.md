@@ -747,3 +747,18 @@
         DONE :)
 
         NEXT: #### 07.8 Removing Hardcoded URLs
+
+
+#### 07.8 Removing Hardcoded URLs
+
+        Activities:
+
+        1. Modified readme file
+        README.md
+
+        2. 07.8 Removing Hardcoded URLs
+        modified:   myapp/templates/myapp/index.html
+
+        DONE :)
+
+        NEXT: #### 07.9 Namespacing URLs
