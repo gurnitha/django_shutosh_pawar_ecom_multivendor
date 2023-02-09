@@ -27,6 +27,7 @@
 
 ## 04. Creating a Django Project, Views & URL Patterns
 
+
 #### 04.1. Understanding significance of project files
 
         Activities:
@@ -41,3 +42,41 @@
 
         mysite/
         manage.py
+
+
+#### 02. Running Project On Local Server
+
+        Activities:
+
+        1. Modified readme file
+        README.md
+
+        2. Running Project On Local Server
+        > (venv3932) λ python manage.py runserver
+        new file:   db.sqlite3
+        new file:   mysite/__pycache__/__init__.cpython-39.pyc
+        new file:   mysite/__pycache__/settings.cpython-39.pyc
+        new file:   mysite/__pycache__/urls.cpython-39.pyc
+        new file:   mysite/__pycache__/wsgi.cpython-39.pyc
+
+
+#### 03. Creating A Django App
+
+        Activities:
+
+        1. Modified readme file
+        README.md
+
+        2. Creating A Django App
+        > (venv3932) λ python manage.py startapp myapp
+
+        new file:   myapp/__init__.py
+        new file:   myapp/admin.py
+        new file:   myapp/apps.py
+        new file:   myapp/migrations/__init__.py
+        new file:   myapp/models.py
+        new file:   myapp/tests.py
+        new file:   myapp/views.py
+
+        3. Modified
+        modified:   .gitignore
