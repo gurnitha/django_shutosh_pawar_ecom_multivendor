@@ -310,3 +310,52 @@
         PASS
 
         NEXT: #### 05.5 Section Notes- Database & Models In Django
+
+
+#### 05.5 Section Notes- Database & Models In Django
+
+        Activities:
+
+        1. Modified readme file
+        README.md
+
+        How are databases and database tables created in Django ?
+        In a regular web app, you would have to create a SQL database by writing SQL queries.
+
+        Or you would have to use a NOSQL solution like firebase to store your data.
+
+        But NOSQL solutions aren’t as powerful as SQL once.
+
+        But with Django, you get the advantage of using a SQL database without having to write a single line of SQL queries.
+
+        This is possible because Django has something called models.
+
+        What are models and how they work ?
+        Let’s suppose you need to save student’s data in your web application.
+
+        For storing such data, in a regular app you would have to create a database, then a database table named student by writing SQL queries.
+
+        But in case of Django, we could directly define the student database table structure in form of a model.
+
+        In Django, models are a blueprint to create database table.
+
+        You simply define the database table structure in terms of Django model and Django will automatically execute the SQL queries in the backend to create those tables.
+
+        Where and how to define these models ?
+        Models could be defined in the models.py file which is already created when you create a Django app.
+
+        A model has to be defined in terms of a Python class.
+
+        Once a model has been created, to create a database table out of it we have to use a migrate command.
+
+        This command will map every database table in your models.py file to an actual database table in the backend.
+
+        But where is this database actually created? We have not configured any!
+        By default when we create a Django project, a sqlite database is already created.
+
+        sqlite is a file based databased and should only used for learning and testing purposes on our local machine.
+
+        This database stores data in a simple file format inside your Django project itself.
+
+        To download this note in PDF format, please check the file attached to this lecture.
+
