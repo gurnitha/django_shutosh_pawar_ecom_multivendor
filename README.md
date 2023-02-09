@@ -80,3 +80,24 @@
 
         3. Modified
         modified:   .gitignore
+
+        NEXT: #### 04. Creating Our First View
+
+
+#### 04. Creating Our First View
+
+        Activities:
+
+        1. Modified readme file
+        README.md
+
+        2. Creating Our First View 
+        modified:   myapp/views.py
+
+        3. Add home path
+        modified:   mysite/urls.py
+
+        DONE: )
+
+        NEXT: #### 05. Adding URL Patterns To App
+
