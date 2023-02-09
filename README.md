@@ -101,3 +101,23 @@
 
         NEXT: #### 05. Adding URL Patterns To App
 
+
+#### 05. Adding URL Patterns To App
+
+        Activities:
+
+        1. Modified readme file
+        README.md
+
+        2. Adding URL Patterns To App
+        new file:   myapp/urls.py
+
+        3. Modified index view
+        modified:   myapp/views.py
+
+        4. Include the urls
+        modified:   mysite/urls.py
+
+        DONE :)
+
+        NEXT: #### 06. Creating Another View
