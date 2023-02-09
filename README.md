@@ -298,3 +298,15 @@
         DONE :)
 
         NEXT: #### 05.4 How Tables Are Created In Backend
+
+
+#### 05.4 How Tables Are Created In Backend (PASSED)
+
+        Activities:
+
+        1. Modified readme file
+        README.md
+
+        PASS
+
+        NEXT: #### 05.5 Section Notes- Database & Models In Django
