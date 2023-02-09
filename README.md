@@ -265,3 +265,16 @@
         PASS
 
         NEXT: #### 05.2 How Data Is Stored In Django
+
+
+#### 05.2 How Data Is Stored In Django (PASSED)
+
+
+        Activities:
+
+        1. Modified readme file
+        README.md
+
+        PASS
+
+        NEXT: #### 05.3 Creating A Database Table
