@@ -359,3 +359,6 @@
 
         To download this note in PDF format, please check the file attached to this lecture.
 
+
+## 06. Django ORM
+
