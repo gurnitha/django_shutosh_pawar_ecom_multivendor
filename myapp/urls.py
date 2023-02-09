@@ -6,6 +6,8 @@ from django.urls import path
 # Import from locals
 from myapp import views
 
+app_name = 'myapp'
+
 urlpatterns = [
     path('', views.index, name='index'),
     path('products/', views.products, name='products'),

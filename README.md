@@ -762,3 +762,26 @@
         DONE :)
 
         NEXT: #### 07.9 Namespacing URLs
+
+
+#### 07.9 Namespacing URLs
+
+        Activities:
+
+        1. Modified readme file
+        README.md
+
+        2. Namespacing URLs
+        modified:   myapp/urls.py
+
+        3. Modified the link
+        modified:   myapp/templates/myapp/detail.html
+
+        4. Modified the link
+        modified:   myapp/templates/myapp/index.html
+
+        DONE :)
+
+        NEXT: #### 07.10 Section Notes- Views & Templates
+
+
