@@ -785,3 +785,82 @@
         NEXT: #### 07.10 Section Notes- Views & Templates
 
 
+#### 07.10 Section Notes- Views & Templates
+
+        Activities:
+
+        1. Modified readme file
+        README.md
+
+        Views & Templates
+
+        What are templates ?
+        Templates in Django allow us to generate HTML dynamically.
+
+        To render these templates, Django needs a templating engine.
+
+        Django comes with its own templating engine called the Django templating engine.
+
+        A template must always be created inside the templates directory of an app.
+
+        The path where these templates resides must be clearly defined.
+
+        In order to render these templates, Django needs to know where exactly these templates are located.
+
+        A template can be rendered my making use of the render method.
+
+        A template always has to be returned as a response from a view.
+
+        Example:
+
+        return render(request,'myapp/index.html')
+        To the render method, we need to pass the request object and the exact path where the template is located.
+
+        Passing dynamic data to templates.
+        We can render templates as plain simple HTML pages.
+
+        We can also make them dynamic by adding dynamic database data into it.
+
+        For example, if we have a list of products in our database, we first extract that list and then pass it as context to the template.
+
+        Here is an example
+
+        Step 1: Getting the list of products from the database
+        products = Product.objects.all()
+        Step 2: Create a context out of it
+        context = {'products':products}
+        Here ‘products’ is the name by which we will refer to the context inside of our template.
+
+        Step 3: Pass this context to the template while rendering it
+        return render(request,'myapp/products.html',context)
+
+        Accessing the context in the HTML template.
+        Once the context object has been passed, it can be de-structured inside the HTML template using the templating language.
+
+        Here is how to do it:
+
+        {% for product in products %}
+                {{product}}
+        {% endfor %}
+        We loop through every product inside the products, products is a list of products that is passed to the template as context and hence we are able to access it in the HTML template.
+
+        Similarly we can also get a single object from the database and pass it as context to the template as well.
+
+        We can also retrieve objects from more than one model, combine them together and pass it as context to the template.
+
+        Namespacing in Django
+        Whenever we refer any URL we refer to it by its name.
+
+        This is alright when you have a single app in your Django project.
+
+        But when you have multiple apps, each app will have its own URLs py file.
+
+        These URL patterns in different apps might have similar names and that might be a problem.
+
+        Hence, we use namespacing and associate every URL pattern with the app name.
+
+        To download this note in PDF format, please check the file attached to this lecture.
+
+        NEXT: ## 08. Adding Styling To Django Project With CSS & Tailwind
+
+
