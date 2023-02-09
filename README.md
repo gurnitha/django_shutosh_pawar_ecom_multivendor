@@ -362,3 +362,31 @@
 
 ## 06. Django ORM
 
+
+#### 06.1 Introduction to Django ORM
+
+        Activities:
+
+        1. Modified readme file
+        README.md
+
+        Welcome to this new section on Shango Ora.
+
+        Just as you don't have to write sequel queries to create a model, you don't have to write any queries
+        for querying data from the database either.
+
+        Django comes with a built in ORM, which stands for Object Relational Mapper, which allows you to
+        create database stable entries as individual objects.
+
+        In this section, we will learn how to add data to the database using the order and also learn how to
+        retrieve that data as well from the database using the autumn itself.
+
+        We will also learn how to access the Django Admin panel by creating a super user from where data could
+        be added by the site administrator.
+
+        So let's go ahead and let's get started with this section.
+
+        NEXT: #### 06.2 Saving Products Using Django ORM
+
+
+
