@@ -624,5 +624,23 @@
 ## 07. Views & Templates
 
 
+#### 07.1 Getting Products Inside View
+
+        Activities:
+
+        1. Modified readme file
+        README.md
+
+        2. Load Product objects to Products view
+        modified:   myapp/views.py
+
+        DONE :)
+
+        NOTE: 
+
+        1. It has no format
+        2. Should use tempate to show them.
+
+        NEXT: #### 07.2 Creating A Template
 
 
