@@ -256,7 +256,6 @@
 
 #### 05.1 Introduction To Database & Models (PASSED)
 
-
         Activities:
 
         1. Modified readme file
@@ -269,7 +268,6 @@
 
 #### 05.2 How Data Is Stored In Django (PASSED)
 
-
         Activities:
 
         1. Modified readme file
@@ -278,3 +276,25 @@
         PASS
 
         NEXT: #### 05.3 Creating A Database Table
+
+
+#### 05.3 Creating Database and A Database Table
+
+        Activities:
+
+        1. Modified readme file
+        README.md
+
+        2. Create db
+        mysql> CREATE DATABASE django_shutosh_pawar_ecom_multivendor;
+
+        3. Register the myapp and setup db connection
+        modified:   mysite/settings.py
+
+        4. Create Produc model and run migraions
+        modified:   myapp/models.py
+        new file:   myapp/migrations/0001_initial.py
+
+        DONE :)
+
+        NEXT: #### 05.4 How Tables Are Created In Backend
