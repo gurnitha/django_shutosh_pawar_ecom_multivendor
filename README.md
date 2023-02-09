@@ -695,3 +695,19 @@
         DONE :)
 
         NEXT: #### 07.5 Detail View Part 1
+
+
+#### 07.5 Detail View Part 1
+
+        Activities:
+
+        1. Modified readme file
+        README.md
+
+        2. Create url
+        modified:   myapp/urls.py
+
+        3. Create product_detail view
+        modified:   myapp/views.py
+
+        NEXT: #### 07.6 Detail View Part 2
