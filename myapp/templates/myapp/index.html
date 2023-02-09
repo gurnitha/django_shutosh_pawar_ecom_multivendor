@@ -6,7 +6,7 @@
 <body>
 	<h3>Mac Products</h3>
 	{% for product in products %}
-	<p>{{product.name}} - {{product.price}} - {{product.desc}}</p>
+	<li><a href="/myapp/products/{{product.id}}">{{product.name}}</a></li>
 	{% endfor %}
 </body>
 </html>

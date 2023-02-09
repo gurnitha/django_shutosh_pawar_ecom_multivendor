@@ -730,3 +730,20 @@
 
         NEXT: #### 07.7 Creating Links For Product Detail
 
+
+#### 07.7 Creating Links For Product Detail
+
+        Activities:
+
+        1. Modified readme file
+        README.md
+
+        2. Create product detail page
+        modified:   myapp/templates/myapp/detail.html
+
+        3. Add link to detail page
+        modified:   myapp/templates/myapp/index.html
+
+        DONE :)
+
+        NEXT: #### 07.8 Removing Hardcoded URLs
