@@ -248,7 +248,20 @@
 
         To download this note in PDF format, please check the file attached to this lecture.
 
-        NEXT: #### 05.1. Introduction To Database & Models
+        NEXT: #### 05.1 Introduction To Database & Models
 
 
 ## 05. Database & Models in Django
+
+
+#### 05.1 Introduction To Database & Models (PASSED)
+
+
+        Activities:
+
+        1. Modified readme file
+        README.md
+
+        PASS
+
+        NEXT: #### 05.2 How Data Is Stored In Django
