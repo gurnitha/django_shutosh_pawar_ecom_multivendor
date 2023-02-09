@@ -389,4 +389,72 @@
         NEXT: #### 06.2 Saving Products Using Django ORM
 
 
+#### 06.2 Saving Products Using Django ORM
+
+        Activities:
+
+        1. Modified readme file
+        README.md
+
+        2. Activate python shell
+        (venv3932) λ ls
+        README.md  _docs  db.sqlite3  manage.py  myapp  mysite  venv3932
+
+        F:\_workspace2023\ecom\shutosh_pawar_ecom_multivendor (master)
+        (venv3932) λ python manage.py shell
+        ...
+       
+        In [1]: from myapp.models import Product
+
+        In [2]: # Retrieve all the Product objects
+
+        In [3]: Product.objects.all()
+        Out[3]: <QuerySet []>
+
+        In [4]: # QuerySet is empty: it meads there is no objects in the Product table
+
+        In [5]: # Insert data to Product table
+
+        In [6]: product = Product(name="iPhone", price=900, desc="This is an iPhone")
+
+        In [7]: product.save()
+
+        In [8]: product2 = Product(name="iPad", price=1200, desc="This is an iPad")
+
+        In [9]: product2.save()
+
+        mysql> desc myapp_product;
+        +-------+--------------+------+-----+---------+----------------+
+        | Field | Type         | Null | Key | Default | Extra          |
+        +-------+--------------+------+-----+---------+----------------+
+        | id    | bigint(20)   | NO   | PRI | NULL    | auto_increment |
+        | name  | varchar(100) | NO   |     | NULL    |                |
+        | price | int(11)      | NO   |     | NULL    |                |
+        | desc  | varchar(200) | NO   |     | NULL    |                |
+        +-------+--------------+------+-----+---------+----------------+
+        4 rows in set (0.00 sec)
+
+        mysql> SELECT * FROM myapp_product;
+        +----+--------+-------+-------------------+
+        | id | name   | price | desc              |
+        +----+--------+-------+-------------------+
+        |  1 | iPhone |   900 | This is an iPhone |
+        +----+--------+-------+-------------------+
+        1 row in set (0.00 sec)
+
+        mysql> SELECT * FROM myapp_product;
+        +----+--------+-------+-------------------+
+        | id | name   | price | desc              |
+        +----+--------+-------+-------------------+
+        |  1 | iPhone |   900 | This is an iPhone |
+        |  2 | iPad   |  1200 | This is an iPad   |
+        +----+--------+-------+-------------------+
+        2 rows in set (0.00 sec)
+
+        NEXT: #### 06.3 Retrieving Products Using ORM
+
+
+
+
+
 
