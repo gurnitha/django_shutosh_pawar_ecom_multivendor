@@ -454,6 +454,91 @@
         NEXT: #### 06.3 Retrieving Products Using ORM
 
 
+#### 06.3 Retrieving Products Using ORM
+
+        Activities:
+
+        1. Modified readme file
+        README.md
+
+        F:\_workspace2023\ecom\shutosh_pawar_ecom_multivendor (master)
+        (venv3932) λ python manage.py shell
+        ...
+
+        In [1]:
+
+        In [1]: # Retrieving Product objects
+
+        In [2]: from myapp.models import Product
+
+        In [3]: Product.objects.all()
+        Out[3]: <QuerySet [<Product: Product object (1)>, <Product: Product object (2)>]>
+
+        In [4]: # Note: It displays  Product object (1) and  Product object (2)
+
+        In [5]: # Lets display name of each the objects
+
+        In [6]: # Modify the Product model and add __str__ method and return Product name
+
+        In [7]: Product.objects.all()
+        Out[7]: <QuerySet [<Product: Product object (1)>, <Product: Product object (2)>]>
+
+        In [8]: # __str__ method added, but it still return the same.
+
+        In [9]: # To solve this issue, re-start the shell
+
+        In [10]:
+
+
+        # Retrieving Product objects
+
+        To solve the above issue, re-start the python shell
+
+        F:\_workspace2023\ecom\shutosh_pawar_ecom_multivendor (master)
+        (venv3932) λ python manage.py shell
+        ...
+
+        In [1]: from myapp.models import Product
+
+        In [2]: # Retrieve Product objects
+
+        In [3]: Product.objects.all()
+        Out[3]: <QuerySet [<Product: iPhone>, <Product: iPad>]>
+
+        In [4]: # Get a single product (iPhone)
+
+        In [5]: Product.objects.get(id=1)
+        Out[5]: <Product: iPhone>
+
+        In [6]: # Get a single product (iPad)
+
+        In [7]: Product.objects.get(id=2)
+        Out[7]: <Product: iPad>
+
+        In [8]: # Create a variable for product object 1
+
+        In [9]: product 1 = Product.objects.get(id=1)
+          File "<ipython-input-9-ebce15319471>", line 1
+            product 1 = Product.objects.get(id=1)
+                    ^
+        SyntaxError: invalid syntax
+
+
+        In [10]: product_1 = Product.objects.get(id=1)
+
+        In [11]: product_1.name
+        Out[11]: 'iPhone'
+
+        In [12]: product_1.price
+        Out[12]: 900
+
+        In [13]: product_1.desc
+        Out[13]: 'This is an iPhone'
+
+        In [14]:
+
+        NEXT: #### 06.4 Accessing Django Admin Panel
+
 
 
 
