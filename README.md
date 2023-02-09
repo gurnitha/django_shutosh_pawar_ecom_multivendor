@@ -540,6 +540,27 @@
         NEXT: #### 06.4 Accessing Django Admin Panel
 
 
+#### 06.4 Accessing Django Admin Panel
+
+        Activities:
+
+        1. Modified readme file
+        README.md
+
+        2. Create superuser
+        (venv3932) λ python manage.py createsuperuser
+        Username (leave blank to use 'hp'): admin
+        Email address: admin@admin.com
+        Password:
+        Password (again):
+
+        3. Register Product model to admin.py
+        modified:   myapp/admin.py
+
+        NEXT: #### 06.5 Section Notes- Django ORM
+
+
+
 
 
 
