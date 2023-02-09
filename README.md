@@ -665,3 +665,19 @@
 
         NEXT: #### 07.3 Rendering Template & Passing Context
 
+
+#### 07.3 Rendering Template & Passing Context
+
+        Activities:
+
+        1. Modified readme file
+        README.md
+
+        2. Passing context
+        modified:   myapp/views.py
+
+        Rendering context to template        
+        modified:   myapp/templates/myapp/index.html
+
+        NEXT: #### 07.4 Looping through objects
+
