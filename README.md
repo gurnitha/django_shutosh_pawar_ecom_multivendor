@@ -644,3 +644,24 @@
         NEXT: #### 07.2 Creating A Template
 
 
+#### 07.2 Creating A Template
+
+        Activities:
+
+        1. Modified readme file
+        README.md
+
+        2. Create a template
+        new file:   myapp/templates/myapp/index.html
+
+        <html>
+        <head>
+                <title>Products List</title>
+        </head>
+        <body>
+
+        </body>
+        </html>
+
+        NEXT: #### 07.3 Rendering Template & Passing Context
+
