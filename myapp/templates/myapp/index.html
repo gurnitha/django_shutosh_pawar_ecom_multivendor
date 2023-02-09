@@ -4,6 +4,9 @@
 	<title>This is a template</title>
 </head>
 <body>
-	<h3>{{products}}</h3>
+	<h3>Mac Products</h3>
+	{% for product in products %}
+	<p>{{product.name}} - {{product.price}} - {{product.desc}}</p>
+	{% endfor %}
 </body>
 </html>

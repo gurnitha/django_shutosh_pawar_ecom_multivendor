@@ -681,3 +681,17 @@
 
         NEXT: #### 07.4 Looping through objects
 
+
+#### 07.4 Looping through objects
+
+        Activities:
+
+        1. Modified readme file
+        README.md
+
+        2. Looping through objects
+        modified:   myapp/templates/myapp/index.html
+
+        DONE :)
+
+        NEXT: #### 07.5 Detail View Part 1
