@@ -9,5 +9,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 
     # myapp
-    path('', include('myapp.urls')),
+    path('myapp/', include('myapp.urls')),
 ]

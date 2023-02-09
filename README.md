@@ -121,3 +121,26 @@
         DONE :)
 
         NEXT: #### 06. Creating Another View
+
+
+#### 06. Creating Another View
+
+        Activities:
+
+        1. Modified readme file
+        README.md
+        
+        2. Modified ruls
+        modified:   mysite/urls.py        
+
+        3. Create a new url
+        modified:   myapp/urls.py
+
+        3. Create Products view
+        modified:   myapp/views.py
+
+        DONE :)
+
+        NEXT: #### 07. Section Notes- Creating A Django Project, Views & URL Patterns.
+
+

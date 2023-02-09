@@ -8,3 +8,8 @@ from django.http import HttpResponse
 
 def index(request):
 	return HttpResponse("Hi there ...")
+
+
+def products(request):
+	products = ["iphone", "imac", "ipad"]
+	return HttpResponse(products)
