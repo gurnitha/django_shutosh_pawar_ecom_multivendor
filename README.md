@@ -711,3 +711,22 @@
         modified:   myapp/views.py
 
         NEXT: #### 07.6 Detail View Part 2
+
+
+#### 07.6 Detail View Part 2
+
+        Activities:
+
+        1. Modified readme file
+        README.md
+        
+        2. Add logic to detail_detail view
+        modified:   myapp/views.py 
+
+        3. Render product instance to detail page       
+        new file:   myapp/templates/myapp/detail.html
+
+        DONE :) 
+
+        NEXT: #### 07.7 Creating Links For Product Detail
+

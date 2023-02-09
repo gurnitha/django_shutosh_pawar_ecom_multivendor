@@ -22,4 +22,8 @@ def products(request):
 
 
 def product_detail(request, id):
-	return HttpResponse('The product id is: '+str(id))
+	product = Product.objects.get(id=id)
+	context = {
+		'product':product,
+	}
+	return render(request, 'myapp/detail.html', context)
