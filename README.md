@@ -618,9 +618,10 @@
         p1.save()
         Similarly to delete it we would say.
 
-
-
         To download this note in PDF format, please check the file attached to this lecture.
+
+
+## 07. Views & Templates
 
 
 
