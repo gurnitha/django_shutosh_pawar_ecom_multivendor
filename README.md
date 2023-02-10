@@ -1259,4 +1259,24 @@
         NEXT: #### 10.3 Creating The Users App
 
 
+#### 10.3 Creating The Users App
+
+        Activities:
+
+        1. Create users app
+        > (venv3932) λ python manage.py startapp users
+        
+        modified:   mysite/settings.py
+        new file:   users/__init__.py
+        new file:   users/admin.py
+        new file:   users/apps.py
+        new file:   users/migrations/__init__.py
+        new file:   users/models.py
+        new file:   users/tests.py
+        new file:   users/views.py
+
+        2. Create NewUserForm
+        new file:   users/forms.py
+
+        NEXT: #### 10.4 Registration Form
 
