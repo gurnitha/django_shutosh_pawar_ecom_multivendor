@@ -1032,3 +1032,15 @@
         NEXT: #### 06.10 Adding Site Hero Using Tailwind
 
 
+#### 06.10 Adding Site Hero Using Tailwind
+
+        Activities:
+
+        1. Adding Site Hero Using Tailwind
+
+        modified:   myapp/templates/myapp/index.html
+
+        DONE :)
+
+        NEXT: #### 06.11 Adding Card Layout To Products
+
