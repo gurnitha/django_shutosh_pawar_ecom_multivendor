@@ -1259,7 +1259,7 @@
         NEXT: #### 10.3 Creating The Users App
 
 
-#### 10.3 Creating The Users App
+#### 10.3-4 Creating The Users App & Register Form
 
         Activities:
 
@@ -1301,4 +1301,18 @@
         NEXT: #### 10.6 URL Patterns For Registration
 
 
+#### 10.6 URL Patterns For Registration
+
+
+        Activities:
+
+        1. Create path for register form
+        new file:   users/urls.py
+
+        2. Include the above path here        
+        modified:   mysite/urls.py
+
+        DONE :)
+
+        NEXT: #### 10.7 Designing The Registration Form
 
