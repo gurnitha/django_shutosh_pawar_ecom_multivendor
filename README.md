@@ -965,3 +965,21 @@
         DONE :)
 
         NEXT:#### 06.7 Using Base Template
+
+
+#### 06.7 Using Base Template
+
+        Activities:
+
+        1. Modified readme file
+        README.md
+
+        2. Create base template
+        new file:   myapp/templates/myapp/base.html
+
+        3. Extend base template
+        modified:   myapp/templates/myapp/index.html
+
+        DONE :)
+
+        NEXT: #### 06.8 Using Base Template In Detail View

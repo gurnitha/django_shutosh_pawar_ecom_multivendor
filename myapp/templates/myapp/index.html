@@ -1,44 +1,11 @@
-<!-- myapp/templates/myapp/index.html -->
+{% extends 'myapp/base.html' %}
 {% load static %}
-<html>
-<head>
-	<title>This is a template</title>
-	<link rel="stylesheet" type="text/css" href="{% static 'myapp/styles.css' %}">
-</head>
-<body>
-	<!-- navbar -->
-	<nav class="bg-white shadow-lg">
-		<div class="max-w-6xl mx-auto px-4">
-			<div class="flex justify-between">
-				<!-- logo and menu -->
-				<div class="flex space-x-7">
-					
-					<!-- logo -->
-					<div>
-						<a href="{% url 'myapp:products' %}" class="flex items-center px-2 py-2">
-						<img class="h-8 w-8" src="{% static 'myapp/images/logo-shopping-bag.png' %}" alt="">
-						<span class="text-gray-500 text-lg font-semibold">Buy&Sell</span>
-						</a>
-					</div>
-					<!-- logo -->
-					<!-- menu -->
-					<div class="items-center flex space-x-1">
-						<a href="" class="py-4 px-2 text-gray-500 font-semibold border-b-4 border-green-500">Home</a>
-						<a href="" class="py-4 px-2 text-gray-500 font-semibold">About</a>
-						<a href="" class="py-4 px-2 text-gray-500 font-semibold">Contact</a>
-					</div>
-					<!-- menu -->
-				</div>
-				<!-- logo and menu -->
-				
-			</div>
-		</div>
-	</nav>
-	<!-- navbar -->
+
+{% block content %}
 
 	<h3>Mac Products</h3>
 	{% for product in products %}
 	<li><a href="{% url 'myapp:product_detail' product.id %}">{{product.name}}</a></li>
 	{% endfor %}
-</body>
-</html>
+
+{% endblock content %}
