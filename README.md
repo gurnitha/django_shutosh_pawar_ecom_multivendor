@@ -983,3 +983,19 @@
         DONE :)
 
         NEXT: #### 06.8 Using Base Template In Detail View
+
+
+#### 06.8 Using Base Template In Detail View
+
+        Activities:
+
+        1. Modified readme file
+        README.md
+
+        2. Extending base template
+        modified:   myapp/templates/myapp/detail.html
+
+        DONE :)
+
+        NEXT: #### 06.9 Adding Image Field To Model
+

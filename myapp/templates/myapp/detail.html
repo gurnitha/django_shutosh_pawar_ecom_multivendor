@@ -1,10 +1,19 @@
 <!-- myapp/templates/myapp/detail.html -->
 
+{% extends 'myapp/base.html' %}
+{% load static %}
+
+{% block content %}
+
 This is the detail page of:
 
-{{product.name}}
-{{product.price}}
-{{product.desc}}
-<br>
-<a href="{% url 'myapp:products' %}">Back</a>
+	{{product.name}}
+	{{product.price}}
+	{{product.desc}}
+	<br>
+	<a href="{% url 'myapp:products' %}">Back</a>
+
+{% endblock content %}
+
+
 
