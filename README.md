@@ -1084,3 +1084,21 @@
 
 
 #### 09.1 Introduction To CRUD (PASSED)
+
+
+#### 09.2 Creating A Form To Accept Products - Get method
+
+        Activities:
+
+        1. Create form
+        new file:   myapp/templates/myapp/addproduct.html
+
+        2. Define url to add product
+        modified:   myapp/urls.py
+
+        3. Define add_product method
+        modified:   myapp/views.py
+
+        DONE :)
+
+        NEXT: #### 09.2 Creating A Form To Accept Products - POST method
