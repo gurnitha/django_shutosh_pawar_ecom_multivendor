@@ -1234,3 +1234,15 @@
         NEXT: #### 09.10 Delete Part 2
 
 
+#### 09.10 Delete Part 2
+
+        Activities:
+
+        1. Styling the deleteproduct form and added cancel button
+        modified:   myapp/templates/myapp/deleteproduct.html
+
+        2. Testing
+
+        DONE :)
+
+        NEXT: ## 10. Authentication
