@@ -1316,3 +1316,17 @@
 
         NEXT: #### 10.7 Designing The Registration Form
 
+
+#### 10.7 Designing The Registration Form
+
+
+        Activities:
+
+        1. Styling the Registration Form
+        modified:   users/templates/users/register.html
+
+        DONE :)
+
+        Note: Form focus has issues of focus outline
+
+        NEXT: #### 10.8 Removing Focused Outline
