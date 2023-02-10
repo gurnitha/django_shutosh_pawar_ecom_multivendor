@@ -1201,3 +1201,14 @@
 
         NEXT: #### 09.8 Update Part 3
 
+
+#### 09.8 Update Part 3
+
+        Activities:
+
+        1. Add logic to update_product view
+        modified:   myapp/views.py
+
+        DONE :)
+
+        NEXT: #### 09.9 Delete Part 1

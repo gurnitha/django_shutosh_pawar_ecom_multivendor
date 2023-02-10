@@ -1,7 +1,7 @@
 # myqpp/views.py
 
 # Import django modules
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.http import HttpResponse
 
 # Import from locals
@@ -47,8 +47,20 @@ def add_product(request):
 
 
 def update_product(request, id):
+	
+	# Get an instance of a product
 	product = Product.objects.get(id=id)
-	# print(product)
+
+	# Get data from the updateproduct form
+	if request.method == 'POST':
+		product.name = request.POST.get('name')
+		product.price = request.POST.get('price')
+		product.desc = request.POST.get('desc')
+		product.image = request.FILES['upload']
+		product.save()
+
+		return redirect('/myapp/products')
+
 	context = {
 		'product':product,
 	}
