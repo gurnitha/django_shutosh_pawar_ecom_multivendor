@@ -1,7 +1,7 @@
 # users/forms.py
 
 # Import django modules
-from django.contrib.auth.forms Import UserCreationForm
+from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.models import User 
 from django import forms  
 

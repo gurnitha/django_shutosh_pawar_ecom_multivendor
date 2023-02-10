@@ -1278,5 +1278,27 @@
         2. Create NewUserForm
         new file:   users/forms.py
 
-        NEXT: #### 10.4 Registration Form
+        NEXT: #### 10.5 Template To Render Registration Form
+
+
+
+#### 10.5 Template To Render Registration Form
+
+
+        Activities:
+
+        1. Fixing the issue
+        modified:   users/forms.py
+        
+        2. Defining register view and get instances from the NewUserForm
+        modified:   users/views.py 
+
+        3. Create register page       
+        new file:   users/templates/users/register.html
+
+        DONE :)
+
+        NEXT: #### 10.6 URL Patterns For Registration
+
+
 
