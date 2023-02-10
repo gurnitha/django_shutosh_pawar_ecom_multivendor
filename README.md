@@ -890,3 +890,24 @@
         DONE :)
 
         NEXT: #### 06.3 Installing Node For Tailwind
+
+
+#### 06.3 Installing Node For Tailwind
+
+        Activities:
+
+        1. Modified readme file
+        README.md
+
+        2. Upgrade node
+        C:\Users\hp>node -v
+        v18.14.0
+
+        NEXT: #### 06.4 Setting Up Tailwind For Django
+
+
+
+
+
+
+
