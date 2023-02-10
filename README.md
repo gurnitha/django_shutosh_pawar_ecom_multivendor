@@ -1066,4 +1066,17 @@
         DONE :)
 
         NEXT:#### 06.12 Styling The Detail Page
+        
+
+#### 06.12 Styling The Detail Page
+
+        Activities:
+        
+        1. Styling detail page
+        modified:   myapp/templates/myapp/detail.html  
+
+        DONE :)
+
+        NEXT: ## 09. Forms & CRUD Operations in Django
+      
 
