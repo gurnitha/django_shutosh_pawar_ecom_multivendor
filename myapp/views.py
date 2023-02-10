@@ -65,3 +65,16 @@ def update_product(request, id):
 		'product':product,
 	}
 	return render(request, 'myapp/updateproduct.html', context)
+
+
+def delete_product(request, id):
+	product = Product.objects.get(id=id)
+	if request.method == 'POST':
+		product.delete()
+		return redirect('/myapp/products')
+
+	context = {
+		'product':product,
+	}
+
+	return render(request, 'myapp/deleteproduct.html', context)

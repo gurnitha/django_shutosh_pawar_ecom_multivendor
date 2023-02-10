@@ -1212,3 +1212,25 @@
         DONE :)
 
         NEXT: #### 09.9 Delete Part 1
+
+
+#### 09.9 Delete Part 1
+
+        Activities:
+
+        1. Create delete path
+        modified:   myapp/urls.py
+
+        2. Create delete_product view
+        modified:   myapp/views.py
+
+        3. Create deleteproduct page
+        new file:   myapp/templates/myapp/deleteproduct.html
+
+        4. Testing: delete a product
+
+        DONE :)
+
+        NEXT: #### 09.10 Delete Part 2
+
+
