@@ -1252,3 +1252,11 @@
 
 
 #### 10.1 Section Intro (PASSED)
+
+
+#### 10.2 Introduction To Authentication (PASSED)
+
+        NEXT: #### 10.3 Creating The Users App
+
+
+
