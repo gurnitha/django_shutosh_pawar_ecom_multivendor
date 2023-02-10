@@ -6,6 +6,23 @@
 	<link rel="stylesheet" type="text/css" href="{% static 'myapp/styles.css' %}">
 </head>
 <body>
+	<!-- navbar -->
+	<nav>
+		<div>
+			<div>
+				<!-- logo -->
+				<div>
+					<div class="flex">
+						<img class="h-8 w-8" src="{% static 'myapp/images/logo-shopping-bag.png' %}" alt="">
+						<span class="text-gray-500 text-lg font-semibold">Buy&Sell</span>
+					</div>
+				</div>
+				<!-- logo -->
+			</div>
+		</div>
+	</nav>
+	<!-- navbar -->
+
 	<h3>Mac Products</h3>
 	{% for product in products %}
 	<li><a href="{% url 'myapp:product_detail' product.id %}">{{product.name}}</a></li>

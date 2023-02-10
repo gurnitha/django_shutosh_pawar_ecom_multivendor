@@ -934,3 +934,22 @@
         NEXT: #### 06.5 Designing Navbar Part 1
 
 
+#### 06.5 Designing Navbar Part 1
+
+        Activities:
+
+        1. Modified readme file
+        README.md
+
+        2. Add logo
+        new file:   myapp/static/myapp/images/logo-shopping-bag.png
+
+        3. Start using tailwind css for navbar
+        modified:   myapp/templates/myapp/index.html
+
+        DONE :)
+
+        NEXT: #### 06.6 Designing Navbar Part 2
+
+
+
