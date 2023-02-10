@@ -1147,3 +1147,19 @@
         DONE :)
 
         NEXT: #### 09.5 Styling Add Product Form
+
+
+#### 09.5 Styling Add Product Form
+
+        Activities:
+
+        1. Add style to form
+        modified:   myapp/templates/myapp/addproduct.html   
+
+        2. Testing: adding a product     
+        new file:   media/images/airpods.jpeg
+
+        DONE :)
+
+        NEXT: #### 09.6 Update Part 1
+
