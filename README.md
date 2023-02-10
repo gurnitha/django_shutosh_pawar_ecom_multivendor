@@ -1180,3 +1180,24 @@
         DONE :)
 
         NEXT: #### 09.7 Update Part 2
+
+
+#### 09.7 Update Part 2
+
+        Activities:
+
+        1. Add logic to get a product instance
+        modified:   myapp/views.py
+
+        2. Render the instance in updateproduct.html
+        modified:   myapp/templates/myapp/updateproduct.html
+
+        DONE :)
+
+        NOTE:
+
+        1. The from could not yet update product.
+        2. To make it work, add more logic to update_product view
+
+        NEXT: #### 09.8 Update Part 3
+

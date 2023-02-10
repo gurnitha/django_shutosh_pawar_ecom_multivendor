@@ -47,4 +47,9 @@ def add_product(request):
 
 
 def update_product(request, id):
-	return render(request, 'myapp/updateproduct.html')
+	product = Product.objects.get(id=id)
+	# print(product)
+	context = {
+		'product':product,
+	}
+	return render(request, 'myapp/updateproduct.html', context)

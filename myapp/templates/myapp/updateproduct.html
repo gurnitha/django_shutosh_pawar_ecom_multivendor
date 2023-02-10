@@ -15,7 +15,8 @@
             placeholder="iPhone" 
             type="text" 
             name="name" 
-            id="name">
+            id="name"
+            value="{{product.name}}">
     </div>
 
     <div class="mb-4">
@@ -24,7 +25,8 @@
             placeholder="800" 
             type="text" 
             name="price" 
-            id="price">
+            id="price"
+            value="{{product.price}}">
     </div>
 
     <div class="mb-4">
@@ -33,11 +35,13 @@
             placeholder="This is an iPhone" 
             type="text" 
             name="desc" 
-            id="desc">
+            id="desc"
+            value="{{product.desc}}">
     </div>
 
     <div class="mb-4">
         <label class="block text-gray-700 text-sm font-bold mb-2" for="">Product Image</label>
+        <img class="w-20 h-20" src="{{product.image.url}}">
         <input class="py-2 " 
             type="file" 
             accept="image/*" 
@@ -48,8 +52,8 @@
     <div class="mb-4">
         <input class="bg-green-500 text-white px-5 py-2" 
             type="submit" 
-            name="Add Product" 
-            value="Add Product" 
+            name="Update Product" 
+            value="Update Product" 
             id="">
     </div>
 
