@@ -1102,3 +1102,21 @@
         DONE :)
 
         NEXT: #### 09.2 Creating A Form To Accept Products - POST method
+
+
+#### 09.2 Creating A Form To Accept Products - POST method
+
+        Activities:
+
+        1. Adding POST method and csrf_token
+        modified:   myapp/templates/myapp/addproduct.html
+
+        NOTE:
+
+        1. Using POST method and csrf_token data is more secure.
+        2. We could submit the form.
+        3. But where did the submited data go?
+
+        DONE :)
+
+        NEXT: #### 09.3 Getting Form Data
