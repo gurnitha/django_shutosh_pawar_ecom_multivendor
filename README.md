@@ -1330,3 +1330,17 @@
         Note: Form focus has issues of focus outline
 
         NEXT: #### 10.8 Removing Focused Outline
+
+
+#### 10.8 Removing Focused Outline
+
+        Activities:
+
+        1. Add form widgets
+        modified:   users/forms.py
+
+        DONE :)
+
+        NOTE: The form does not functioning yet
+
+        NEXT: #### 10.9 Completing Register Functionality
