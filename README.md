@@ -1120,3 +1120,18 @@
         DONE :)
 
         NEXT: #### 09.3 Getting Form Data
+
+
+### 09.3 Getting Form Data
+
+        Activities:
+
+        1. Modified the form
+        modified:   myapp/templates/myapp/addproduct.html
+
+        2. Add logic to add_product view
+        modified:   myapp/views.py
+
+        DONE :)
+
+        NEXT: #### 09.4 Testing The Form

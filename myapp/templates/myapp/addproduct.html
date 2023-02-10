@@ -1,13 +1,13 @@
 <!-- templates/myapp/addproduct.html -->
-<form method="POST">
+<form method="POST" enctype="multipart/form-data">
 
     {% csrf_token %}
 
-    <input type="text" name="name" id="name">
-    <input type="text" name="price" id="price"><br>
-    <input type="text" name="desc" id="desc"><br>
-    <input type="file" name="upload" id="upload" accept="image/*"><br>
+    <input placeholder="Name" type="text" name="name" id="name">
+    <input placeholder="Price" type="text" name="price" id="price"><br>
+    <input placeholder="Desc" type="text" name="desc" id="desc"><br>
+    <input type="file" accept="image/*" name="upload" id="upload" ><br>
 
-    <input type="submit" name="Add Product" id="Add Product" value="Add Product">
+    <input type="submit" name="Add Product" value="Add Product">
 
 </form>

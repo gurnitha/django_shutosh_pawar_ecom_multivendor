@@ -30,4 +30,17 @@ def product_detail(request, id):
 
 
 def add_product(request):
+	# 1. Once the form submited,
+	#    Get all data (name, price, desc, and image)
+	if request.method =='POST':
+		name = request.POST.get('name')
+		price = request.POST.get('price')
+		desc = request.POST.get('desc')
+		image = request.FILES['upload']
+
+		# 2. Pass the data or insert the data to Product table
+		#    in the db using django ORM
+		product = Product(name=name, price=price, desc=desc, image=image)
+		product.save()	
+
 	return render(request, 'myapp/addproduct.html')
