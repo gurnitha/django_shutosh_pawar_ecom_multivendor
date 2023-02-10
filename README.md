@@ -1135,3 +1135,15 @@
         DONE :)
 
         NEXT: #### 09.4 Testing The Form
+
+
+#### 09.4 Testing The Form
+
+        Activities:
+
+        1. Added a new product
+        new file:   media/images/imac.png
+
+        DONE :)
+
+        NEXT: #### 09.5 Styling Add Product Form
