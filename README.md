@@ -872,3 +872,21 @@
         PASS
 
         NEXT: #### 06.2 Adding CSS To Django Project
+
+
+#### 06.2 Adding CSS To Django Project
+
+        Activities:
+
+        1. Modified readme file
+        README.md
+
+        2. Create static file
+        new file:   myapp/static/myapp/style.css
+
+        3. Adding Styling To Django Project
+        modified:   myapp/templates/myapp/index.html
+
+        DONE :)
+
+        NEXT: #### 06.3 Installing Node For Tailwind
