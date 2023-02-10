@@ -999,3 +999,36 @@
 
         NEXT: #### 06.9 Adding Image Field To Model
 
+
+#### 06.9 Adding Image Field To Model
+
+        Activities:
+
+        1. Modified readme file
+        README.md        
+
+        2. Adding image field to Product model
+        modified:   myapp/models.py
+
+        3. Run and apply migrations
+        modified:   myapp/migrations/0001_initial.py
+
+        4. Cofigure media root and url
+        modified:   mysite/settings.py
+
+        5. Setup the media path
+        modified:   mysite/urls.py
+
+        6. Add new products and images from admin panel
+        new file:   media/images/cat-12.png
+        new file:   media/images/cat-2.png
+        new file:   media/images/cat-9.png            
+
+        7. Load product and image in detail page 
+        modified:   myapp/templates/myapp/detail.html
+
+        DONE :)
+
+        NEXT: #### 06.10 Adding Site Hero Using Tailwind
+
+
