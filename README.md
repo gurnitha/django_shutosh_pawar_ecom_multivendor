@@ -1249,3 +1249,6 @@
 
 
 ## 10. Authentication
+
+
+#### 10.1 Section Intro (PASSED)
