@@ -7,17 +7,30 @@
 </head>
 <body>
 	<!-- navbar -->
-	<nav>
-		<div>
-			<div>
-				<!-- logo -->
-				<div>
-					<div class="flex">
+	<nav class="bg-white shadow-lg">
+		<div class="max-w-6xl mx-auto px-4">
+			<div class="flex justify-between">
+				<!-- logo and menu -->
+				<div class="flex space-x-7">
+					
+					<!-- logo -->
+					<div>
+						<a href="{% url 'myapp:products' %}" class="flex items-center px-2 py-2">
 						<img class="h-8 w-8" src="{% static 'myapp/images/logo-shopping-bag.png' %}" alt="">
 						<span class="text-gray-500 text-lg font-semibold">Buy&Sell</span>
+						</a>
 					</div>
+					<!-- logo -->
+					<!-- menu -->
+					<div class="items-center flex space-x-1">
+						<a href="" class="py-4 px-2 text-gray-500 font-semibold border-b-4 border-green-500">Home</a>
+						<a href="" class="py-4 px-2 text-gray-500 font-semibold">About</a>
+						<a href="" class="py-4 px-2 text-gray-500 font-semibold">Contact</a>
+					</div>
+					<!-- menu -->
 				</div>
-				<!-- logo -->
+				<!-- logo and menu -->
+				
 			</div>
 		</div>
 	</nav>

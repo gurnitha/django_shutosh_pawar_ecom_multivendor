@@ -952,4 +952,16 @@
         NEXT: #### 06.6 Designing Navbar Part 2
 
 
+#### 06.6 Designing Navbar Part 2
 
+        Activities:
+
+        1. Modified readme file
+        README.md
+
+        2. Styling the navbar
+        modified:   myapp/templates/myapp/index.html
+
+        DONE :)
+
+        NEXT:#### 06.7 Using Base Template
