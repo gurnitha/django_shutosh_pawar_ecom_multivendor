@@ -1,6 +1,6 @@
 _docs
 venv3932
-
+node_modules
 # LOCALS
 .env
 # static

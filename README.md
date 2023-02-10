@@ -906,8 +906,31 @@
         NEXT: #### 06.4 Setting Up Tailwind For Django
 
 
+#### 06.4 Setting Up Tailwind For Django
 
+        Activities:
 
+        1. Modified readme file
+        README.md
 
+        2. Modified
+        modified:   .gitignore
+
+        3. Setting Up Tailwind For Django
+        new file:   myapp/static/myapp/src/tw.css
+
+        4. New file created after running npm run build
+        new file:   myapp/static/myapp/styles.css
+
+        5. Using tailwind (load tailwind)
+        modified:   myapp/templates/myapp/index.html
+
+        6. New files created using npm init -y
+        new file:   package-lock.json
+        new file:   package.json
+
+        DONE :)
+
+        NEXT: #### 06.5 Designing Navbar Part 1
 
 
