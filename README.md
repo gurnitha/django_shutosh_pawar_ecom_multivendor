@@ -1044,3 +1044,26 @@
 
         NEXT: #### 06.11 Adding Card Layout To Products
 
+
+#### 06.11 Adding Card Layout To Products
+
+        Activities:
+
+        1. Adding html card
+        modified:   myapp/templates/myapp/index.html
+
+        2. Add some product
+        new file:   media/images/imac_kmsZxc0.png
+        new file:   media/images/ipad.jpeg
+        new file:   media/images/ipad.png
+        new file:   media/images/iphone-4.png
+        new file:   media/images/iphone-5.png
+        new file:   media/images/iphone12.jpeg
+
+        3. Modified
+        modified:   README.md
+
+        DONE :)
+
+        NEXT:#### 06.12 Styling The Detail Page
+
