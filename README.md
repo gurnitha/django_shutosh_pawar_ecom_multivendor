@@ -1163,3 +1163,20 @@
 
         NEXT: #### 09.6 Update Part 1
 
+
+#### 09.6 Update Part 1
+
+        Activities:
+
+        1. Create update product page
+        new file:   myapp/templates/myapp/updateproduct.html
+
+        2. Create path for product update
+        modified:   myapp/urls.py
+
+        3. Define update_product view
+        modified:   myapp/views.py
+
+        DONE :)
+
+        NEXT: #### 09.7 Update Part 2
