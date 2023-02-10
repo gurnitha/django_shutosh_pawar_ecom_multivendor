@@ -865,3 +865,10 @@
 
 
 ## 08. Adding Styling To Django Project With CSS & Tailwind
+
+
+#### 06.1 Introduction To Styling (PASSED)
+
+        PASS
+
+        NEXT: #### 06.2 Adding CSS To Django Project
