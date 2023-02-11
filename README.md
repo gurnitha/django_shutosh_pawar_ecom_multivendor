@@ -1476,3 +1476,19 @@
         DONE :)
 
         NEXT: #### 10.15 Login Required Decorator
+
+
+#### 10.15.2 Login Required Decorator - Page not found (404)
+
+        Activities:
+
+        1. Adding @login_required to profile view
+        modified:   users/views.py
+
+        2. Modified 
+        modified:   users/templates/users/profile.html
+
+
+        NOTE: Un-logged in user now can not access the profile page
+
+
