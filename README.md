@@ -1513,4 +1513,29 @@
 ## 11. Creating User Profile
 
 
-#### 11.1 Introduction To Creating User Profile
+#### 11.1 Introduction To Creating User Profile (PASSED)
+
+
+#### 11.2 Creating A Profile Model
+
+        Activities:
+
+        1. Create Profile model and run migrations
+
+        modified:   users/models.py        
+        new file:   users/migrations/0001_initial.py
+        
+        2. Register Profile model
+        modified:   users/admin.py
+
+        3. Create a profile from admin panel
+        new file:   media/profile_pictures/ing.PNG
+
+        4. Render profile image to profile page
+        modified:   users/templates/users/profile.html
+
+        DONE :)
+
+        NEXT: #### 11.3 Designing Profile Page
+
+
