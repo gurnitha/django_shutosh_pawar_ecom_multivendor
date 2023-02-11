@@ -1440,3 +1440,18 @@
         NEXT: #### 10.14 Adding Login Button To Navbar
 
 
+#### 10.14 Adding Login Button To Navbar
+
+        Activities:
+
+        1. Add conditional to navbar to show login/logout menu
+        modified:   myapp/templates/myapp/base.html
+
+        2. Delete unnecessary part of the page
+        modified:   myapp/templates/myapp/index.html
+
+        NOTE: User still can access any page
+
+        DONE :)
+
+        NEXT: #### 10.15 Login Required Decorator
