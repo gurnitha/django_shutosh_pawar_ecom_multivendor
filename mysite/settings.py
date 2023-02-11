@@ -144,3 +144,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # New
 LOGIN_REDIRECT_URL = 'myapp:products'
+LOGIN_URL = 'users:login'

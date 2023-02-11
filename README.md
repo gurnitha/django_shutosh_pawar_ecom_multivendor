@@ -1492,3 +1492,19 @@
         NOTE: Un-logged in user now can not access the profile page
 
 
+
+#### 10.15.3 Login Required Decorator - Redirect un-logged in user to login page
+
+        Activities:
+
+        1. Add LOGIN_URL parameter
+        modified:   mysite/settings.py
+
+        DONE :)
+
+        NOTE:
+
+        1. Un-logged in user will redirect to login page
+        2. Logged in user will redirect to products page
+
+        NEXT: ## 11. Creating User Profile
