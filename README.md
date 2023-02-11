@@ -1508,3 +1508,6 @@
         2. Logged in user will redirect to products page
 
         NEXT: ## 11. Creating User Profile
+
+
+## 11. Creating User Profile
