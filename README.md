@@ -1361,3 +1361,19 @@
         NOTE: Could not register a new user if using the email address as the password
 
         NEXT: #### 10.10 Login Part 1
+
+
+#### 10.10 Login Part 1
+
+        Activities:
+
+        1. Create login using LoginView 
+        modified:   users/urls.py
+
+        2. Create login page
+        new file:   users/templates/users/login.html
+
+        DONE :)
+
+        NEXT: #### 10.11 Login Part 2
+
