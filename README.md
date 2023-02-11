@@ -1377,3 +1377,23 @@
 
         NEXT: #### 10.11 Login Part 2
 
+
+#### 10.11 Login Part 2
+
+        Activities:
+
+        1. Create login form
+        modified:   users/templates/users/login.html
+
+        2. Testing
+
+        NOTE:
+
+        1. Superadmin can login via the login form and can
+           directly see the admin panel
+        2. Normal user can login, but can not login to admin
+        3. So normal user is restricted to see admin panel
+
+        DONE :)
+
+        NEXT: #### 10.12 Logout
