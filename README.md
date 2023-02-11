@@ -1397,3 +1397,35 @@
         DONE :)
 
         NEXT: #### 10.12 Logout
+
+
+#### 10.12 Logout
+
+        Activities:
+
+        1. Create LogoutView 
+        modified:   users/urls.py
+
+        2. Create logout page
+        new file:   users/templates/users/logout.html
+
+        NOTE:
+
+        1. Login and logout as normal:
+           . Can login and logout from the front.
+           . Can not login/logout via admin panel.
+
+        2. Login and logout as superuser
+           . Can login and logout via admin panel.
+           . Can also login and logout via front.
+
+        3. It means, it works perfectly.
+
+        4. But the logged in user, always redirect to profile page.
+
+        DONE :)
+
+        NEXT: #### 10.13 Login Redirect URL
+
+
+
