@@ -1,7 +1,7 @@
 # users/views.py
 
 # Import django modules
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 
 # Import from locals
 from users.forms import NewUserForm
@@ -9,10 +9,23 @@ from users.forms import NewUserForm
 # Create your views here.
 
 def register(request):
-	# Load the NewUserForm and get its instances
-	form = NewUserForm()
-	context = {
-		'form':form,
-	}
+	# Handling POST request
+    if request.method =='POST':
+    	# Get and put all sent data from the NewUserForm to form variable
+        form = NewUserForm(request.POST)
+        # Make sure data, espesially email is valid
+        if form.is_valid():
+        	# If data (email) is valid call save_user_data method from within the NewUserForm class
+            # user = form.save() # the tutor
+            user = form.save_user_data() # ing
+            # Redirect to products page
+            return redirect('/myapp/products')
+    
+    # Handling GET request
+    form = NewUserForm()
 
-	return render(request, 'users/register.html', context)
+    context={
+        'form':form,
+    }
+
+    return render(request,'users/register.html',context)

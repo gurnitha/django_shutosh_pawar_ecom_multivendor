@@ -1344,3 +1344,20 @@
         NOTE: The form does not functioning yet
 
         NEXT: #### 10.9 Completing Register Functionality
+
+
+#### 10.9 Completing Register Functionality
+
+        Activities:
+
+        1. Create user instances
+        modified:   users/forms.py
+
+        2. Add logic to save user data
+        modified:   users/views.py
+
+        DONE :)
+
+        NOTE: Could not register a new user if using the email address as the password
+
+        NEXT: #### 10.10 Login Part 1
