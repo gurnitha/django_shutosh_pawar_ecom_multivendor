@@ -1455,3 +1455,24 @@
         DONE :)
 
         NEXT: #### 10.15 Login Required Decorator
+
+
+#### 10.15.1 Create profile page
+
+        Activities:
+
+        1. Create profile view
+        modified:   users/views.py
+
+        2. Create profile path
+        modified:   users/urls.py
+
+        3. Create profile page
+        new file:   users/templates/users/profile.html
+
+        4. Add profile menu in navbar
+        modified:   myapp/templates/myapp/base.html
+
+        DONE :)
+
+        NEXT: #### 10.15 Login Required Decorator
