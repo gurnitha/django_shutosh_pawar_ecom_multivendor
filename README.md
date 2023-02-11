@@ -1428,4 +1428,15 @@
         NEXT: #### 10.13 Login Redirect URL
 
 
+#### 10.13 Login Redirect URL
+
+        Activities:
+
+        1. Add parameter LOGIN_REDIRECT_URL 
+        modified:   mysite/settings.py
+
+        DONE :)
+
+        NEXT: #### 10.14 Adding Login Button To Navbar
+
 
