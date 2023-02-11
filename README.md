@@ -1539,3 +1539,13 @@
         NEXT: #### 11.3 Designing Profile Page
 
 
+### 11.3 Designing Profile Page
+
+        Activities:
+
+        1. Styling profile page
+        modified:   users/templates/users/profile.html
+
+        DONE :)
+
+        NEXT: #### 11.4 Creating Profile Form
