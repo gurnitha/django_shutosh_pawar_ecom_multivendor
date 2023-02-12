@@ -1799,3 +1799,5 @@
 
 ## 12. Class Based Views in Django
 
+
+#### 12.1 Introduction To Class Based Views (PASSED)
