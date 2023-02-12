@@ -1914,3 +1914,18 @@
 
         NEXT: #### 12.8 Redirect URL Remaining Lecture
 
+
+#### 12.8 Redirect URL 
+
+        Activities:
+
+        1. Create get_abosolute_url
+        modified:   myapp/models.py   
+        
+        2. Testing update new product
+        new file:   media/images/iphone12_57EGzjT.jpeg
+
+        DONE :)
+
+        NEXT: ## 13. Customising Admin Panel
+
