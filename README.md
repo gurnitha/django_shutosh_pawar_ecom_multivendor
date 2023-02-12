@@ -1728,3 +1728,22 @@
         DONE :)
 
         NEXT: #### 11.11 Creating My Listings Page Part 1
+
+
+#### 11.11 Creating My Listings Page Part 1
+
+        Activities:
+
+        1. Create my_listings view
+        modified:   myapp/views.py
+
+        2. Create path for mylistings        
+        modified:   myapp/urls.py
+
+        3. Create mylistings page and render the objects
+        new file:   myapp/templates/myapp/mylistings.html
+
+        DONE :)
+
+        NEXT: #### 11.12 Creating My Listings Page Part 2
+
