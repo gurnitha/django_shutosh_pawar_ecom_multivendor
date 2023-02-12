@@ -1747,3 +1747,14 @@
 
         NEXT: #### 11.12 Creating My Listings Page Part 2
 
+
+#### 11.12 Creating My Listings Page Part 2
+
+        Activities:
+
+        1. Styling the mylistings page
+        modified:   myapp/templates/myapp/mylistings.html
+
+        DONE :)
+
+        NEXT: #### 11.13 Creating My Listings Page Part 3
