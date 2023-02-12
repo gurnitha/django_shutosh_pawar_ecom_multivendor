@@ -1713,3 +1713,18 @@
         DONE :)
 
         NEXT: #### 11.10 Adding Design Touches:  Part 1 - To Login
+
+
+#### 11.10 Adding Design Touches:  Part 2 - To Login and Register
+
+        Activities:
+
+        1. Adding design and link to register page
+        modified:   users/templates/users/login.html
+
+        2. Adding design and link to login page
+        modified:   users/templates/users/register.html
+
+        DONE :)
+
+        NEXT: #### 11.11 Creating My Listings Page Part 1
