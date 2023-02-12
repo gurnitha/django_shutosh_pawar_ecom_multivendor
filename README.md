@@ -1871,3 +1871,28 @@
 
         NEXT: #### 12.6 UpdateView
 
+
+#### 12.6 UpdateView
+
+        Activities:
+
+        1. Create ProductUpdateView
+        modified:   myapp/views.py 
+
+        2. Create the path       
+        modified:   myapp/urls.py
+
+        3. Create the page
+        new file:   myapp/templates/myapp/product_update_form.html
+       
+        4. Update a product
+        new file:   media/images/iphone-13-pro-silver-select.jpeg
+
+        NOTE:
+
+        1. It worked.
+        2. But the form showed the seller_name options.
+        3. Any user can change the seller.
+
+        NEXT: #### 12.7 DeleteView
+
