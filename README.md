@@ -1610,3 +1610,22 @@
 
 
         NEXT: #### 11.6 Associating User With Product
+
+
+#### 11.6 Associating User With Product - Part 3 Display seller_name to products page
+
+
+        Activities:
+
+        1. Modified field name from seller_nme to seller_name        
+        modified:   myapp/models.py
+
+        2. Run migrations
+        new file:   myapp/migrations/0003_rename_seller_nme_product_seller_name.py
+
+        3. Display seller_name
+        modified:   myapp/templates/myapp/index.html
+
+        DONE :)
+
+        NEXT: #### 11.6 Associating User With Product
