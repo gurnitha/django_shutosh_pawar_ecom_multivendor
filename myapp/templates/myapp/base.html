@@ -22,6 +22,7 @@
 						</a>
 					</div>
 					<!-- logo -->
+
 					<!-- menu -->
 					<div class="items-center flex space-x-1">
 		                <a href="#" class="py-4 px-2 text-gray-500 font-semibold border-b-4  border-green-500">Home</a>
@@ -29,15 +30,14 @@
 		                <a href="{% url 'myapp:products' %}" class="py-4 px-2 text-gray-500 font-semibold">View products</a>
 		                {% if user.is_authenticated %}
 		                  <a class="py-4 px-20 text-gray-500 font-semibold" href="{% url 'users:logout' %}">Logout</a>
-                  		  <a class="py-4 px-40 text-gray-500 font-semibold" href="{% url 'users:profile' %}">Profile</a>
+		                  <a class="py-4 px-40 text-gray-500 font-semibold" href="{% url 'users:profile' %}">Profile</a>
 		                {% else %}
 		                  <a class="py-4 px-40 text-gray-500 font-semibold" href="{% url 'users:login' %}">Login</a>
 		                {% endif %}
-		             </div>
+		            </div>
 					<!-- menu -->
 				</div>
 				<!-- logo and menu -->
-				
 			</div>
 		</div>
 	</nav>

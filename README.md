@@ -1703,3 +1703,13 @@
         NEXT: #### 11.10 Adding Design Touches To Navbar
 
 
+#### 11.10 Adding Design Touches:  Part 1 - To Navbar
+
+        Activities:
+
+        1. Adding design to navbar
+        modified:   myapp/templates/myapp/base.html
+
+        DONE :)
+
+        NEXT: #### 11.10 Adding Design Touches:  Part 1 - To Login
