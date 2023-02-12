@@ -1690,3 +1690,16 @@
 
         NEXT: #### 11.9 Designing Seller Profile Page
 
+
+#### 11.9 Designing Seller Profile Page
+
+        Activities:
+
+        1. Designing Seller Profile Page
+        modified:   users/templates/users/selllerprofile.html
+
+        DONE :)
+
+        NEXT: #### 11.10 Adding Design Touches To Navbar
+
+
