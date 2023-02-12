@@ -4,7 +4,7 @@
 from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from django.contrib.auth.decorators import login_required
-from django.views.generic import ListView
+from django.views.generic import ListView, DetailView
 
 # Import from locals
 from myapp.models import Product
@@ -30,12 +30,20 @@ class ProductListView(ListView):
     context_object_name = 'products'
 
 
-def product_detail(request, id):
-	product = Product.objects.get(id=id)
-	context = {
-		'product':product,
-	}
-	return render(request, 'myapp/detail.html', context)
+# def product_detail(request, id):
+# 	product = Product.objects.get(id=id)
+# 	context = {
+# 		'product':product,
+# 	}
+# 	return render(request, 'myapp/detail.html', context)
+
+
+# Class Based ListDetailView for the above product_detail
+class ProductDetailView(DetailView):
+	model = Product
+	template_name = 'myapp/detail.html'
+	context_object_name = 'product'
+
 
 
 @login_required

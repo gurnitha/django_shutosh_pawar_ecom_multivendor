@@ -1817,3 +1817,17 @@
 
         NEXT: #### 12.3 Class Based DetailView
 
+
+#### 12.3 Class Based DetailView
+
+        Activities:
+
+        1. Create Classed Based ProductDetailView
+        modified:   myapp/views.py
+
+        2. Create the path        
+        modified:   myapp/urls.py
+
+        DONE :)
+
+        NEXT: #### 12.4 CreateView Part 1
