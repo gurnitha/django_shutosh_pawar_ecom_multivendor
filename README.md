@@ -1629,3 +1629,64 @@
         DONE :)
 
         NEXT: #### 11.6 Associating User With Product
+
+
+#### 11.6 Associating User With Product - Part 4 Add seller_name to add_product view
+
+        Activities:
+
+        1. Add seller_name to add_product view
+        modified:   myapp/views.py       
+
+        2. Testing: loging in > add product 
+        new file:   media/images/iphone-8.png
+
+        DONE :)
+
+        NEXT: #### 11.7 Displaying Seller Details
+
+
+#### 11.7 Displaying Seller Details
+
+        Activities:
+
+        1. Add seller_name to add_product view
+        modified:   myapp/views.py
+
+        2. Add a new product by logged in user
+        new file:   media/images/iphone-8.png
+
+        3. Load user detail to the detail page
+        modified:   myapp/templates/myapp/detail.html
+
+        DONE :)
+
+        NEXT: #### 11.8 Creating Seller Profile Page
+
+
+#### 11.8 Creating Seller Profile Page
+
+        Activities:
+
+        1. Create path for sellerprofile
+        modified:   users/urls.py
+
+        2. Create seller_profile view
+        modified:   users/views.py
+
+        3. Add seller_name to add_product view
+        modified:   myapp/views.py
+
+        4. Create a new selllerprofile page
+        new file:   users/templates/users/selllerprofile.html
+
+        5. Add a new product by logged in user
+        new file:   media/images/iphone-8.png
+
+        6. Display product detail
+        modified:   myapp/templates/myapp/detail.html
+
+        DONE :)
+
+        NEXT: #### 11.9 Designing Seller Profile Page
+

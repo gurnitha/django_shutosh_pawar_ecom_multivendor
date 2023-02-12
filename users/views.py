@@ -3,6 +3,7 @@
 # Import django modules
 from django.shortcuts import render, redirect
 from django.contrib.auth.decorators import login_required
+from django.contrib.auth.models import User
 
 # Import from locals
 from users.forms import NewUserForm
@@ -53,3 +54,11 @@ def create_profile(request):
         profile.save()
 
     return render(request, 'users/createprofile.html')
+
+
+def seller_profile(request,id):
+    seller = User.objects.get(id=id)
+    context = {
+        'seller':seller
+    }
+    return render(request, 'users/selllerprofile.html', context)

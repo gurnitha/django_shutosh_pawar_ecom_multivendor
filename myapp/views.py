@@ -39,10 +39,11 @@ def add_product(request):
 		price = request.POST.get('price')
 		desc = request.POST.get('desc')
 		image = request.FILES['upload']
+		seller_name = request.user # the logged in user
 
 		# 2. Pass the data or insert the data to Product table
 		#    in the db using django ORM
-		product = Product(name=name, price=price, desc=desc, image=image)
+		product = Product(name=name, price=price, desc=desc, image=image, seller_name=seller_name)
 		product.save()	
 
 	return render(request, 'myapp/addproduct.html')
