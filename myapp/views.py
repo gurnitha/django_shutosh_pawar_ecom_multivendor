@@ -4,6 +4,7 @@
 from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from django.contrib.auth.decorators import login_required
+from django.views.generic import ListView
 
 # Import from locals
 from myapp.models import Product
@@ -14,12 +15,19 @@ def index(request):
 	return HttpResponse("Hi there ...")
 
 
-def products(request):
-	products = Product.objects.all()
-	context = {
-		'products':products,
-	}
-	return render(request, 'myapp/index.html', context)
+# def products(request):
+# 	products = Product.objects.all()
+# 	context = {
+# 		'products':products,
+# 	}
+# 	return render(request, 'myapp/index.html', context)
+
+
+# Class based view for the above products view [ListView]
+class ProductListView(ListView):
+    model = Product
+    template_name = 'myapp/index.html'
+    context_object_name = 'products'
 
 
 def product_detail(request, id):

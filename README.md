@@ -1801,3 +1801,19 @@
 
 
 #### 12.1 Introduction To Class Based Views (PASSED)
+
+
+#### 12.2 Class Based ListView
+
+        Activities:
+
+        1. Create Classed Based ProductListView
+        modified:   myapp/views.py
+
+        2. Create the path        
+        modified:   myapp/urls.py
+
+        DONE :)
+
+        NEXT: #### 12.3 Class Based DetailView
+
