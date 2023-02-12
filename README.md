@@ -1849,3 +1849,25 @@
         DONE :)
 
         NEXT: #### 12.5 CreateView Part 2
+
+
+#### 12.5 CreateView Part 2
+
+        Activities:
+
+        1. Designin product_form page
+        modified:   myapp/templates/myapp/product_form.html   
+
+        2. Testing create a new product     
+        new file:   media/images/imac_kmsZxc0_XHenDlC.png
+
+        NOTE: 
+
+        1. Product created, but it create error. It says:
+                'ImproperlyConfigured at /myapp/products/add/
+                No URL to redirect to.  Either provide a url or define a get_absolute_url method on the Model.'
+
+        2. When go to http://127.0.0.1:8000/myapp/products/, you can see the created product
+
+        NEXT: #### 12.6 UpdateView
+
