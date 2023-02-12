@@ -1567,3 +1567,19 @@
         DONE :)
 
         NEXT: #### 11.5 Handling Post Request
+
+
+#### 11.5 Handling Post Request
+
+        Activities:
+        
+        1. Handling Post Request
+        modified:   users/views.py 
+
+        2. Add image and contact number to testuser1       
+        new file:   media/profile_pictures/darling.PNG
+
+        DONE :)
+
+        NEXT: #### 11.6 Associating User With Product
+

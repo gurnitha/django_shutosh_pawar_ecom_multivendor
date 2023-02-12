@@ -6,6 +6,7 @@ from django.contrib.auth.decorators import login_required
 
 # Import from locals
 from users.forms import NewUserForm
+from users.models import Profile
 
 # Create your views here.
 
@@ -38,4 +39,17 @@ def profile(request):
 
 
 def create_profile(request):
+
+    # Handling POST request if form submited with data
+    if request.method == 'POST':
+
+        # Get the image, contact_number, and user
+        image = request.FILES['upload']
+        contact_number = request.POST.get('contact_number')
+        user = request.user 
+
+        # Create profile objecs and save them to the the Profile table in the db
+        profile = Profile(image=image,contact_number=contact_number,user=user)
+        profile.save()
+
     return render(request, 'users/createprofile.html')
