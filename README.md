@@ -1758,3 +1758,43 @@
         DONE :)
 
         NEXT: #### 11.13 Creating My Listings Page Part 3
+
+
+#### 11.13 Creating My Listings Page Part 3
+
+        Activities:
+
+        1. Adding Edit and Delete button
+        modified:   myapp/templates/myapp/mylistings.html
+
+        2. Adding mylistings menu
+        modified:   myapp/templates/myapp/base.html
+
+        3. Testing: Update product
+        new file:   media/images/airpods_B1fA3j5.jpeg
+        new file:   media/images/airpods_v231w9J.jpeg
+        new file:   media/images/iphone-6.png
+        new file:   media/images/iphone-9.png
+
+        NOTE:
+
+        1. Update a product without change/replace the image,
+           it will rise error like this:
+
+           MultiValueDictKeyError at /myapp/products/update/8/
+          'upload'
+
+        2. But update a product by replacing/change the image,
+           it worked.
+
+        3. So, to update something for a product, MUST
+           replace/change the image, eventhough to
+           use the same image.
+
+
+        DONE (:
+
+        NEXT: ## 12. Class Based Views in Django
+
+
+
