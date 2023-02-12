@@ -5,7 +5,8 @@ from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from django.contrib.auth.decorators import login_required
 from django.views.generic import ListView, DetailView
-from django.views.generic.edit import CreateView, UpdateView
+from django.views.generic.edit import CreateView, UpdateView, DeleteView
+from django.urls import reverse_lazy
 
 # Import from locals
 from myapp.models import Product
@@ -107,17 +108,23 @@ class ProductUpdateView(UpdateView):
     template_name_suffix = '_update_form'
 
 
-def delete_product(request, id):
-	product = Product.objects.get(id=id)
-	if request.method == 'POST':
-		product.delete()
-		return redirect('/myapp/products')
+# def delete_product(request, id):
+# 	product = Product.objects.get(id=id)
+# 	if request.method == 'POST':
+# 		product.delete()
+# 		return redirect('/myapp/products')
 
-	context = {
-		'product':product,
-	}
+# 	context = {
+# 		'product':product,
+# 	}
 
-	return render(request, 'myapp/deleteproduct.html', context)
+# 	return render(request, 'myapp/deleteproduct.html', context)
+
+
+# Class based delete view
+class ProductDelete(DeleteView):
+    model = Product
+    success_url = reverse_lazy('myapp:products')
 
 
 def my_listings(request):

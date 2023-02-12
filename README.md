@@ -1896,3 +1896,21 @@
 
         NEXT: #### 12.7 DeleteView
 
+
+#### 12.7 DeleteView
+
+        Activities:
+        
+        1. Create ProductDelete view
+        modified:   myapp/views.py  
+
+        2. Create path for it      
+        modified:   myapp/urls.py
+
+        3. Create product_confirm_delete
+        new file:   myapp/templates/myapp/product_confirm_delete.html
+
+        DONE :)
+
+        NEXT: #### 12.8 Redirect URL Remaining Lecture
+
