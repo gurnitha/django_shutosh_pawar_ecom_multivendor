@@ -1586,3 +1586,27 @@
 
 #### 11.6 Associating User With Product - Part 1: Preventing un-loggeg in user to add product
 
+        Activities:
+
+        1. Add login_required
+        modified:   myapp/views.py
+
+        DONE :)
+
+        NEXT: 11.6 Associating User With Product
+
+
+#### 11.6 Associating User With Product - Part 2 Adding seller_name field to Product model
+
+        Activities:
+
+        1. Add seller_name field to Product model
+        modified:   myapp/models.py
+
+        2. Run and apply migrations        
+        new file:   myapp/migrations/0002_product_seller_nme.py
+
+        DONE :)
+
+
+        NEXT: #### 11.6 Associating User With Product
