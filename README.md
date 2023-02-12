@@ -1831,3 +1831,21 @@
         DONE :)
 
         NEXT: #### 12.4 CreateView Part 1
+
+
+#### 12.4 CreateView Part 1
+
+        Activities:
+
+        1. Create Classed Based ProductCreateView
+        modified:   myapp/views.py
+
+        2. Create the path for ProductCreateView
+        modified:   myapp/urls.py
+
+        3. Render the form instance
+        new file:   myapp/templates/myapp/product_form.html
+
+        DONE :)
+
+        NEXT: #### 12.5 CreateView Part 2

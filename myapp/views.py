@@ -5,6 +5,7 @@ from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from django.contrib.auth.decorators import login_required
 from django.views.generic import ListView, DetailView
+from django.views.generic.edit import CreateView
 
 # Import from locals
 from myapp.models import Product
@@ -45,7 +46,6 @@ class ProductDetailView(DetailView):
 	context_object_name = 'product'
 
 
-
 @login_required
 def add_product(request):
 	# 1. Once the form submited,
@@ -64,6 +64,21 @@ def add_product(request):
 
 	return render(request, 'myapp/addproduct.html')
 
+
+# Class Based View for creating a product
+class ProductCreateView(CreateView):
+	model = Product
+	'''
+	About the fields: The fields will authomaticall:
+	1. Create instance of form
+	2. Looks for a page of product_form.html
+	3. product_form.html comes from:
+	3.1 product as the name of the model 'Product'
+	3.2 form is the insctace of the fields.
+	3.3 So, if the model was Category, then --> category_form.html
+	'''
+	fields = ['name','price','desc','image','seller_name']
+	# product_form.html
 
 def update_product(request, id):
 	
