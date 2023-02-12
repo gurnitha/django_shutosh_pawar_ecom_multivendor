@@ -1797,4 +1797,5 @@
         NEXT: ## 12. Class Based Views in Django
 
 
+## 12. Class Based Views in Django
 
