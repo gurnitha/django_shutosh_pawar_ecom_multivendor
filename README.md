@@ -1549,3 +1549,21 @@
         DONE :)
 
         NEXT: #### 11.4 Creating Profile Form
+
+
+#### 11.4 Creating Profile Form
+
+        Activities:
+
+        1. Create path for createprofile
+        modified:   users/urls.py
+
+        2. Create create_profile view
+        modified:   users/views.py 
+
+        3. Create Profile Form       
+        new file:   users/templates/users/createprofile.html
+
+        DONE :)
+
+        NEXT: #### 11.5 Handling Post Request
