@@ -3,6 +3,7 @@
 # Import django modules
 from django.shortcuts import render, redirect
 from django.http import HttpResponse
+from django.contrib.auth.decorators import login_required
 
 # Import from locals
 from myapp.models import Product
@@ -29,6 +30,7 @@ def product_detail(request, id):
 	return render(request, 'myapp/detail.html', context)
 
 
+@login_required
 def add_product(request):
 	# 1. Once the form submited,
 	#    Get all data (name, price, desc, and image)

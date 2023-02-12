@@ -1583,3 +1583,6 @@
 
         NEXT: #### 11.6 Associating User With Product
 
+
+#### 11.6 Associating User With Product - Part 1: Preventing un-loggeg in user to add product
+
